@@ -14,11 +14,11 @@ namespace ConsoleLauncherApp
             Console.BackgroundColor = ConsoleColor.Black;
             Console.Clear();
 
-            // Intentamos obtener las rutas automáticamente.
+    
             string steamPath = GetSteamExecutablePath();
             string epicPath = GetEpicGamesLauncherExecutablePath();
 
-            // Si no se encontró la ruta, se solicita al usuario que la ingrese manualmente.
+            
             if (string.IsNullOrEmpty(steamPath))
             {
                 WriteColored("No se encontró la ruta de Steam.", ConsoleColor.Red);
@@ -69,7 +69,7 @@ namespace ConsoleLauncherApp
             }
         }
 
-        // Método para escribir mensajes en la consola con un color específico.
+        
         static void WriteColored(string message, ConsoleColor color)
         {
             Console.ForegroundColor = color;
@@ -77,7 +77,7 @@ namespace ConsoleLauncherApp
             Console.ResetColor();
         }
 
-        // Intenta obtener la ruta de Steam.exe desde el registro.
+        
         static string GetSteamExecutablePath()
         {
             try
@@ -104,7 +104,7 @@ namespace ConsoleLauncherApp
             return string.Empty;
         }
 
-        // Intenta obtener la ruta del Epic Games Launcher desde el registro.
+        
         static string GetEpicGamesLauncherExecutablePath()
         {
             try
@@ -128,18 +128,18 @@ namespace ConsoleLauncherApp
             {
                 WriteColored("Error obteniendo la ruta del Epic Games Launcher: " + ex.Message, ConsoleColor.Red);
             }
-            // Ruta predeterminada si no se encuentra en el registro.
+            
             string defaultEpicPath = @"C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe";
             return File.Exists(defaultEpicPath) ? defaultEpicPath : string.Empty;
         }
 
-        // Lanza el proceso y verifica si ya está en ejecución.
+        
         static void LaunchProcess(string exePath)
         {
             try
             {
                 string launcherName = Path.GetFileNameWithoutExtension(exePath);
-                // Verificamos si ya hay procesos en ejecución con ese nombre.
+                
                 Process[] runningProcesses = Process.GetProcessesByName(launcherName);
                 if (runningProcesses.Length > 0)
                 {
@@ -148,7 +148,7 @@ namespace ConsoleLauncherApp
                     var key = Console.ReadKey(true);
                     if (key.Key == ConsoleKey.Enter)
                     {
-                        // Intenta cerrar todos los procesos del launcher.
+                        
                         foreach (var proc in runningProcesses)
                         {
                             try { proc.Kill(); }
@@ -168,7 +168,7 @@ namespace ConsoleLauncherApp
                 Process procNew = Process.Start(exePath);
                 if (procNew != null)
                 {
-                    // Espera 3 segundos para dar tiempo a que se inicie el proceso.
+                    
                     Thread.Sleep(3000);
                     if (!procNew.HasExited)
                     {
