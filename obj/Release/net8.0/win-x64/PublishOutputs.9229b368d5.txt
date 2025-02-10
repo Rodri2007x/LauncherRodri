@@ -1,2 +1,0 @@
-D:\Port\LauncherRodri\LauncherRodri\bin\Release\net8.0\win-x64\publish\LauncherRodri.pdb
-D:\Port\LauncherRodri\LauncherRodri\bin\Release\net8.0\win-x64\publish\LauncherRodri.exe

@@ -1,5 +1,0 @@
-D:\Port\LauncherRodri\LauncherRodri\bin\Release\net8.0\publish\RodriLauncher\LauncherRodri.exe
-D:\Port\LauncherRodri\LauncherRodri\bin\Release\net8.0\publish\RodriLauncher\LauncherRodri.dll
-D:\Port\LauncherRodri\LauncherRodri\bin\Release\net8.0\publish\RodriLauncher\LauncherRodri.deps.json
-D:\Port\LauncherRodri\LauncherRodri\bin\Release\net8.0\publish\RodriLauncher\LauncherRodri.runtimeconfig.json
-D:\Port\LauncherRodri\LauncherRodri\bin\Release\net8.0\publish\RodriLauncher\LauncherRodri.pdb
