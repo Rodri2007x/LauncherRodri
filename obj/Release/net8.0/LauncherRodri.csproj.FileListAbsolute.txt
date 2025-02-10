@@ -1,0 +1,14 @@
+D:\Port\LauncherRodri\LauncherRodri\bin\Release\net8.0\LauncherRodri.exe
+D:\Port\LauncherRodri\LauncherRodri\bin\Release\net8.0\LauncherRodri.deps.json
+D:\Port\LauncherRodri\LauncherRodri\bin\Release\net8.0\LauncherRodri.runtimeconfig.json
+D:\Port\LauncherRodri\LauncherRodri\bin\Release\net8.0\LauncherRodri.dll
+D:\Port\LauncherRodri\LauncherRodri\bin\Release\net8.0\LauncherRodri.pdb
+D:\Port\LauncherRodri\LauncherRodri\obj\Release\net8.0\LauncherRodri.GeneratedMSBuildEditorConfig.editorconfig
+D:\Port\LauncherRodri\LauncherRodri\obj\Release\net8.0\LauncherRodri.AssemblyInfoInputs.cache
+D:\Port\LauncherRodri\LauncherRodri\obj\Release\net8.0\LauncherRodri.AssemblyInfo.cs
+D:\Port\LauncherRodri\LauncherRodri\obj\Release\net8.0\LauncherRodri.csproj.CoreCompileInputs.cache
+D:\Port\LauncherRodri\LauncherRodri\obj\Release\net8.0\LauncherRodri.dll
+D:\Port\LauncherRodri\LauncherRodri\obj\Release\net8.0\refint\LauncherRodri.dll
+D:\Port\LauncherRodri\LauncherRodri\obj\Release\net8.0\LauncherRodri.pdb
+D:\Port\LauncherRodri\LauncherRodri\obj\Release\net8.0\LauncherRodri.genruntimeconfig.cache
+D:\Port\LauncherRodri\LauncherRodri\obj\Release\net8.0\ref\LauncherRodri.dll
