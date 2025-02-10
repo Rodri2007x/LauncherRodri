@@ -4,7 +4,7 @@ using System.IO;
 using System.Threading;
 using Microsoft.Win32;
 
-namespace ConsoleLauncherApp
+namespace LauncherRodri
 {
     class Program
     {
